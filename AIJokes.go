@@ -1,7 +1,6 @@
 package AIJokes
 
 import (
-	"fmt"
 	"math/rand"
 )
 
@@ -21,5 +20,5 @@ var witze = []string{
 
 func BringMichZumLachen() string {
 	N := len(witze)
-	fmt.Println(witze[rand.Intn(N)])
+	return witze[rand.Intn(N)]
 }
