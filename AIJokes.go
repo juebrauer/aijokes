@@ -15,7 +15,9 @@ var witze = []string{
 	"7. Warum sollte man nie Schach mit einem Baum spielen? Weil er jeden Zug verwurzelt!",
 	"8. Was ist das Lieblingsessen eines Elektrikers? Spannungskartoffeln!",
 	"9. Was macht ein Mathematiker, wenn er seekrank wird? Er errechnet den Kotzvektor!",
-	"10. Warum hatte der Schmetterling"}
+	"10. Warum hatte der Schmetterling",
+	"11. Warum gehen Katzen nicht gern ins Theater? Weil sie lieber im eigenen Fell sitzen!",
+	"12. Was sagte der Stift zum Radiergummi? Du bist mein größter Fehler!"}
 
 func BringMichZumLachen() string {
 	N := len(witze)
